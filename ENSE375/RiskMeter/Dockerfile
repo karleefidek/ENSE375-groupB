@@ -1,4 +1,4 @@
-FROM maven:3.8.1-jdk-11 AS build
+FROM maven:3.6.3-jdk-11 AS build
 MAINTAINER groupb
 COPY pom.xml /usr/local/service/pom.xml
 COPY src /usr/local/service/src
